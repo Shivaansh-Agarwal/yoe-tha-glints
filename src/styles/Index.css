@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --app-margin-top: 1rem;
+  --app-margin-bottom: 1rem;
+  --app-margin-left: 1rem;
+  --app-margin-right: 1rem;
+  --app-padding-top: 0rem;
+  --app-padding-bottom: 0rem;
+  --app-padding-left: 1rem;
+  --app-padding-right: 1rem;
+  --font-family: "Poppins", sans-serif;
+  --container-max-width: 55rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin-top: var(--app-margin-top);
+  margin-bottom: var(--app-margin-bottom);
+  margin-left: var(--app-margin-left);
+  margin-right: var(--app-margin-right);
+  padding-top: var(--app-padding-top);
+  padding-bottom: var(--app-padding-bottom);
+  padding-left: var(--app-padding-left);
+  padding-right: var(--app-padding-right);
+  font-family: var(--font-family);
+  width: calc(
+    100% - var(--app-margin-left) - var(--app-margin-right) -
+      var(--app-padding-left) - var(--app-padding-right)
+  );
+  min-height: calc(
+    100vh - var(--app-margin-top) - var(--app-margin-bottom) -
+      var(--app-padding-top) - var(--app-padding-bottom)
+  );
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  background: white;
+  width: 100%;
+  max-width: var(--container-max-width);
+}
