@@ -1,0 +1,28 @@
+/* Common CSS File for all Components */
+.container {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  background: white;
+  width: 100%;
+  max-width: var(--container-max-width);
+}
+
+.btn_edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 1px solid transparent;
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn_edit:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

@@ -35,21 +35,3 @@
   font-size: 1.2rem;
   color: rgb(56, 56, 56);
 }
-
-.btn_edit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: none;
-  border: 1px solid transparent;
-  padding: 0.4rem;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.btn_edit:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
