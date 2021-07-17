@@ -1,19 +1,19 @@
 import React from "react";
 import { MdEdit } from "react-icons/md";
-import styles1 from "./styles/ProfileCard.module.css";
+import styles from "./styles/ProfileCard.module.css";
 
 export const ProfileCard = ({ profileImage, name, age }) => {
   return (
     <div className="container">
-      <div className={styles1.profile_wrapper}>
-        <div className={styles1.profile_pic}>
+      <div className={styles.profile_wrapper}>
+        <div className={styles.profile_pic}>
           <img src={profileImage} alt="" />
         </div>
-        <div className={styles1.profile_details}>
-          <div className={styles1.name}>{name}</div>
-          <div className={styles1.age}>Age: {age}</div>
+        <div className={styles.profile_details}>
+          <div className={styles.name}>{name}</div>
+          <div className={styles.age}>Age: {age}</div>
         </div>
-        <button className={styles1.btn_edit}>
+        <button className={styles.btn_edit}>
           <MdEdit />
         </button>
       </div>
