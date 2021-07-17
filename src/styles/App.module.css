@@ -42,13 +42,3 @@
   justify-content: flex-start;
   align-items: center;
 }
-
-.container {
-  margin: 1rem;
-  padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
-  background: white;
-  width: 100%;
-  max-width: var(--container-max-width);
-}
