@@ -9,7 +9,8 @@
   max-width: var(--container-max-width);
 }
 
-.btn_edit {
+.btn_edit,
+.btn_add {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +24,7 @@
   top: 0;
   right: 0;
 }
-.btn_edit:hover {
+.btn_edit:hover,
+.btn_add:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
