@@ -1,2 +1,2 @@
-export { ProfileCard } from "./ProfileCard";
-export { ExperienceSection } from "./ExperienceSection";
+export { ProfileSectionView } from "./ProfileSectionView";
+export { ExperienceSectionView } from "./ExperienceSectionView";

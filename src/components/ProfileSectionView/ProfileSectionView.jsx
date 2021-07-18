@@ -1,9 +1,13 @@
 import React from "react";
 import { MdEdit } from "react-icons/md";
 import stylesCommon from "../styles/Components.module.css";
-import styles from "./styles/ProfileCard.module.css";
+import styles from "./styles/ProfileSectionView.module.css";
 
-export const ProfileCard = ({ profileImage, name, age }) => {
+export const ProfileSectionView = ({
+  profileImage = "https://via.placeholder.com/150",
+  name = "",
+  age = "",
+}) => {
   return (
     <div className={stylesCommon.container}>
       <div className={styles.profile_wrapper}>

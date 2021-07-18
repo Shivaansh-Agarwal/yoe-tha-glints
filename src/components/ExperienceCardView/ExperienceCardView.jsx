@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { MdEdit } from "react-icons/md";
 import stylesCommon from "../styles/Components.module.css";
-import styles from "./styles/ExperienceCard.module.css";
+import styles from "./styles/ExperienceCardView.module.css";
 import { shortenString } from "../../utils/utility.js";
 
-export const ExperienceCard = ({
+export const ExperienceCardView = ({
   companyLogo,
   companyName,
   jobTitle,

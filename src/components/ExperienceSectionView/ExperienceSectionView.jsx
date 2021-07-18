@@ -1,8 +1,9 @@
 import stylesCommon from "../styles/Components.module.css";
-import styles from "./styles/ExperienceSection.module.css";
-import { ExperienceCard } from "../ExperienceCard";
+import styles from "./styles/ExperienceSectionView.module.css";
+import { ExperienceCardView } from "../ExperienceCardView";
 import { MdAdd } from "react-icons/md";
-export const ExperienceSection = () => {
+
+export const ExperienceSectionView = () => {
   const experienceData = [];
   return (
     <section className={stylesCommon.container}>
@@ -13,7 +14,7 @@ export const ExperienceSection = () => {
         </div>
       </header>
       {experienceData.map(({ id, ...data }) => {
-        return <ExperienceCard key={id} {...data} />;
+        return <ExperienceCardView key={id} {...data} />;
       })}
     </section>
   );
