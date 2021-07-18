@@ -9,7 +9,7 @@ export const ProfileSectionView = ({
   age = "",
 }) => {
   return (
-    <div className={stylesCommon.container}>
+    <section className={stylesCommon.container}>
       <div className={styles.profile_wrapper}>
         <div className={styles.profile_pic}>
           <img src={profileImage} alt="" />
@@ -22,6 +22,6 @@ export const ProfileSectionView = ({
           <MdEdit />
         </button>
       </div>
-    </div>
+    </section>
   );
 };
